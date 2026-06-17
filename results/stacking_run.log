@@ -1,0 +1,39 @@
+============================================================
+  Stacking 集成 (Stack Generalization)
+============================================================
+
+### formation_energy_per_atom ###
+[STACK] 目标: formation_energy_per_atom, 基模型: ['ridge', 'rf', 'lgbm']
+  基模型 ridge: R²=0.7030 MAE=0.4204
+  基模型 rf: R²=0.8848 MAE=0.2308
+  基模型 lgbm: R²=0.9101 MAE=0.1946
+  Stacking: R²=0.9112 MAE=0.1925
+  简单平均: R²=0.8754
+
+### energy_above_hull ###
+[STACK] 目标: energy_above_hull, 基模型: ['ridge', 'rf', 'lgbm']
+  基模型 ridge: R²=0.4741 MAE=0.3467
+  基模型 rf: R²=0.7531 MAE=0.2041
+  基模型 lgbm: R²=0.7998 MAE=0.1770
+  Stacking: R²=0.8022 MAE=0.1740
+  简单平均: R²=0.7397
+
+[SAVE] C:\Users\LENOVO\Desktop\科研论文\results\metrics\stacking_results.csv
+
+============================================================
+  Stacking 汇总
+============================================================
+
+  formation_energy_per_atom:
+    ridge_R2: 0.7030
+    rf_R2: 0.8848
+    lgbm_R2: 0.9101
+    stacking_R2: 0.9112
+    avg_R2: 0.8754
+
+  energy_above_hull:
+    ridge_R2: 0.4741
+    rf_R2: 0.7531
+    lgbm_R2: 0.7998
+    stacking_R2: 0.8022
+    avg_R2: 0.7397

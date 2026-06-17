@@ -1,0 +1,25 @@
+﻿target,config,function_set,parsimony,R2_train,MAE_train,complexity,equation
+formation_energy_per_atom,basic_p0.001,basic,0.001,0.055975774620564134,0.744742809558187,5,"add(sub(X7, 0.769), -0.954)"
+formation_energy_per_atom,basic_p0.01,basic,0.01,0.055975774620564134,0.744742809558187,5,"add(sub(X7, 0.769), -0.954)"
+formation_energy_per_atom,basic_p0.05,basic,0.05,-0.005054619740137767,0.8047086146530957,3,"add(-0.805, -0.928)"
+formation_energy_per_atom,basic_sqrt_p0.001,basic_sqrt,0.001,0.4206157241370113,0.5678368512961951,22,"sub(-0.191, sqrt(add(sub(sub(sub(X7, sqrt(sub(X10, X12))), sqrt(sub(X7, sqrt(X7)))), sqrt(sub(X4, X12))), X10)))"
+formation_energy_per_atom,basic_sqrt_p0.01,basic_sqrt,0.01,0.29671936188209436,0.6534429527844515,12,"sub(-0.593, sqrt(add(sub(X7, sqrt(sub(X7, sqrt(X9)))), -0.593)))"
+formation_energy_per_atom,basic_sqrt_p0.05,basic_sqrt,0.05,-0.004639866609878585,0.8047189122108419,3,"add(-0.883, -0.847)"
+formation_energy_per_atom,basic_log_p0.001,basic_log,0.001,0.3003654244598707,0.6400240377158478,12,"sub(sub(X7, sqrt(log(sqrt(X1)))), sqrt(sub(X7, log(0.176))))"
+formation_energy_per_atom,basic_log_p0.01,basic_log,0.01,-0.005316011674257881,0.8047056029155039,2,log(0.176)
+formation_energy_per_atom,basic_log_p0.05,basic_log,0.05,-0.005316011674257881,0.8047056029155039,2,log(0.176)
+formation_energy_per_atom,rich_p0.001,rich,0.001,0.41323147906553825,0.5812590116946088,17,"sub(mul(add(add(X10, add(add(X8, X7), X7)), X7), 0.187), sqrt(log(mul(X8, 0.100))))"
+formation_energy_per_atom,rich_p0.01,rich,0.01,-0.0010207788270459872,0.8053288169353437,2,log(-0.184)
+formation_energy_per_atom,rich_p0.05,rich,0.05,-0.0010207788270459872,0.8053288169353437,2,log(-0.184)
+energy_above_hull,basic_p0.001,basic,0.001,0.24960258034506955,0.4260849733686688,5,"sub(0.723, mul(0.362, X5))"
+energy_above_hull,basic_p0.01,basic,0.01,-0.020172631947222408,0.4848672448856834,1,0.658
+energy_above_hull,basic_p0.05,basic,0.05,-0.020172631947222408,0.4848672448856834,1,0.658
+energy_above_hull,basic_sqrt_p0.001,basic_sqrt,0.001,0.1390105728371931,0.4398236905466785,9,"sqrt(sub(sqrt(sub(mul(X3, X6), X3)), X3))"
+energy_above_hull,basic_sqrt_p0.01,basic_sqrt,0.01,-0.014826467194872128,0.4848429236419456,1,0.670
+energy_above_hull,basic_sqrt_p0.05,basic_sqrt,0.05,-0.014826467194872128,0.4848429236419456,1,0.670
+energy_above_hull,basic_log_p0.001,basic_log,0.001,0.3243825375908268,0.4034567821319156,18,"add(mul(0.302, sub(mul(mul(0.235, sub(sub(X7, 0.624), X5)), sub(sqrt(X0), X5)), X5)), 0.699)"
+energy_above_hull,basic_log_p0.01,basic_log,0.01,-0.014826467194872128,0.4848429236419456,1,0.670
+energy_above_hull,basic_log_p0.05,basic_log,0.05,-0.014826467194872128,0.4848429236419456,1,0.670
+energy_above_hull,rich_p0.001,rich,0.001,0.3102277230558146,0.39715297610224803,13,"abs(mul(0.399, sub(sub(X5, 0.895), sqrt(log(sqrt(log(sqrt(X8))))))))"
+energy_above_hull,rich_p0.01,rich,0.01,-0.014826467194872128,0.4848429236419456,1,0.670
+energy_above_hull,rich_p0.05,rich,0.05,-0.014826467194872128,0.4848429236419456,1,0.670

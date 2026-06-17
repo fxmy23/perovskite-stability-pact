@@ -1,0 +1,33 @@
+============================================================
+  单任务基准建模 (五模型对比, 5折CV)
+============================================================
+
+### 目标: 形成能 Ef ###
+[MODEL] 目标: formation_energy_per_atom | 样本 4914 | 特征 109 维
+  >> RF ... RMSE=0.3363 MAE=0.2316 R²=0.8836
+  >> SVR ... RMSE=0.3364 MAE=0.2266 R²=0.8835
+  >> XGBoost ... RMSE=0.2975 MAE=0.1956 R²=0.9089
+  >> LightGBM ... RMSE=0.2961 MAE=0.1950 R²=0.9097
+
+### 目标: 凸包能 Ehull ###
+[MODEL] 目标: energy_above_hull | 样本 4914 | 特征 109 维
+  >> RF ... RMSE=0.3044 MAE=0.2042 R²=0.7527
+  >> SVR ... RMSE=0.3250 MAE=0.2151 R²=0.7183
+  >> XGBoost ... RMSE=0.2775 MAE=0.1769 R²=0.7945
+  >> LightGBM ... RMSE=0.2752 MAE=0.1774 R²=0.7979
+
+[SAVE] 基准指标: C:\Users\LENOVO\Desktop\科研论文\results\metrics\baseline_metrics.csv
+[SAVE] 逐样本预测已保存 (供 parity plot)
+
+============================================================
+  基准性能汇总
+============================================================
+                   target    model     RMSE      MAE       R2
+formation_energy_per_atom       RF 0.336276 0.231631 0.883579
+formation_energy_per_atom      SVR 0.336388 0.226582 0.883502
+formation_energy_per_atom  XGBoost 0.297534 0.195572 0.908859
+formation_energy_per_atom LightGBM 0.296121 0.194974 0.909723
+        energy_above_hull       RF 0.304440 0.204170 0.752726
+        energy_above_hull      SVR 0.324951 0.215062 0.718285
+        energy_above_hull  XGBoost 0.277529 0.176945 0.794510
+        energy_above_hull LightGBM 0.275202 0.177355 0.797941

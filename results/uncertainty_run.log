@@ -1,0 +1,28 @@
+============================================================
+  不确定性量化 (分位数回归 vs 集成方差)
+============================================================
+
+### formation_energy_per_atom ###
+[UQ] 目标: formation_energy_per_atom, 样本 4914, 特征 122维
+  >> 集成方差 (5个RF × 5折 = 25次训练)...
+  >> 点预测: RMSE=0.1858 MAE=0.1313 R²=0.9645
+  >> 区间校准: PICP=0.921 (名义0.80) MPIW=0.6657
+  >> 不确定性-误差相关性: 0.494 (越高越有意义)
+  [SAVE] 逐样本不确定性: C:\Users\LENOVO\Desktop\科研论文\results\metrics\uncertainty_formation_energy_per_atom.csv
+
+### energy_above_hull ###
+[UQ] 目标: energy_above_hull, 样本 4914, 特征 122维
+  >> 集成方差 (5个RF × 5折 = 25次训练)...
+  >> 点预测: RMSE=0.1595 MAE=0.1013 R²=0.9322
+  >> 区间校准: PICP=0.874 (名义0.80) MPIW=0.4101
+  >> 不确定性-误差相关性: 0.620 (越高越有意义)
+  [SAVE] 逐样本不确定性: C:\Users\LENOVO\Desktop\科研论文\results\metrics\uncertainty_energy_above_hull.csv
+
+[SAVE] 不确定性对比: C:\Users\LENOVO\Desktop\科研论文\results\metrics\uncertainty_comparison.csv
+
+============================================================
+  不确定性量化汇总
+============================================================
+     method     RMSE      MAE       R2     PICP     MPIW      CWC  nominal_coverage                    target  uncert_err_corr
+ensemble_rf 0.185813 0.131344 0.964454 0.921245 0.665693 0.665693               0.8 formation_energy_per_atom         0.493947
+ensemble_rf 0.159465 0.101282 0.932156 0.874033 0.410104 0.410104               0.8         energy_above_hull         0.619961

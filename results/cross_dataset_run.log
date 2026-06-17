@@ -1,0 +1,27 @@
+============================================================
+  跨数据集泛化 (wolverton → matbench)
+============================================================
+[1] 加载 wolverton 训练集...
+    样本 4914, 特征 109
+[2] 加载 matbench 测试集...
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\composition.py:1240: FutureWarning: gcd is deprecated, and will be removed on 2028-01-01
+Use math.gcd instead.
+  factor = abs(gcd(*(int(i) for i in sym_amt.values())))
+    样本 9646 (去重后)
+[3] 生成 matbench 特征...
+[4] 训练 wolverton 模型 → 预测 matbench...
+
+============================================================
+  跨数据集泛化结果 (wolverton→matbench)
+============================================================
+  R² (绝对预测):     -10.7475
+  MAE:               2.4044 eV/atom
+  RMSE:              2.5572 eV/atom
+  Spearman 相关:     0.4052 (p=0.00e+00)
+  → 排序一致性 中等
+
+[SAVE] C:\Users\LENOVO\Desktop\科研论文\results\metrics\cross_dataset_generalization.csv
+
+[解读]
+  R²=-10.75 < 0: 存在系统性偏差 (两数据集 DFT 设置不同)
+  Spearman=0.41: 部分可迁移, 化学空间差异显著

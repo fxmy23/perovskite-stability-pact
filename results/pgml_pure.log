@@ -1,0 +1,32 @@
+============================================================
+  PGML 残差建模 (物理 vs ML vs PGML 三方对比)
+============================================================
+
+### 目标: 形成能 Ef ###
+[PGML] 目标: formation_energy_per_atom
+       样本数 4914, 全特征 109维, 物理特征 10维
+  >> 纯物理基线 (KernelRidge on 物理特征)...
+  >> 纯 ML (全特征)...
+  >> PGML (物理基线 + ML 残差)...
+       物理贡献占比: 62.4% | ML残差占比: 37.6%
+
+### 目标: 凸包能 Ehull ###
+[PGML] 目标: energy_above_hull
+       样本数 4914, 全特征 109维, 物理特征 10维
+  >> 纯物理基线 (KernelRidge on 物理特征)...
+  >> 纯 ML (全特征)...
+  >> PGML (物理基线 + ML 残差)...
+       物理贡献占比: 38.5% | ML残差占比: 61.5%
+
+[SAVE] PGML 对比结果: C:\Users\LENOVO\Desktop\科研论文\results\metrics\pgml_comparison.csv
+
+============================================================
+  PGML 三方对比汇总
+============================================================
+    RMSE      MAE       R2       method  physics_share  ml_share                    target
+0.657672 0.505262 0.554695 physics_only            NaN       NaN formation_energy_per_atom
+0.295874 0.194313 0.909873      ml_only            NaN       NaN formation_energy_per_atom
+0.291360 0.193812 0.912602         pgml       0.624033  0.375967 formation_energy_per_atom
+0.514012 0.403751 0.295110 physics_only            NaN       NaN         energy_above_hull
+0.275148 0.177921 0.798020      ml_only            NaN       NaN         energy_above_hull
+0.276393 0.177828 0.796188         pgml       0.384605  0.615395         energy_above_hull

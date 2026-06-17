@@ -1,0 +1,49 @@
+============================================================
+  Stacking 集成 (Stack Generalization)
+============================================================
+
+### formation_energy_per_atom ###
+[STACK] 目标: formation_energy_per_atom, 基模型: ['ridge', 'rf', 'lgbm']
+  (嵌套CV: 外层5折评估 / 内层5折生成OOF)
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\linear_model\_ridge.py:216: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0525522582833593e-28.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\linear_model\_ridge.py:216: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.493463449078431e-27.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  基模型 ridge: R²=0.7202
+  基模型 rf: R²=0.8865
+  基模型 lgbm: R²=0.9113
+  Stacking: R²=0.9122 MAE=0.1906
+  简单平均: R²=0.8796
+
+### energy_above_hull ###
+[STACK] 目标: energy_above_hull, 基模型: ['ridge', 'rf', 'lgbm']
+  (嵌套CV: 外层5折评估 / 内层5折生成OOF)
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\linear_model\_ridge.py:216: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.965399478631108e-28.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\linear_model\_ridge.py:216: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 6.47898675608487e-28.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  基模型 ridge: R²=0.4784
+  基模型 rf: R²=0.7607
+  基模型 lgbm: R²=0.8018
+  Stacking: R²=0.8045 MAE=0.1717
+  简单平均: R²=0.7435
+
+[SAVE] C:\Users\LENOVO\Desktop\科研论文\results\metrics\stacking_results.csv
+
+============================================================
+  Stacking 汇总
+============================================================
+
+  formation_energy_per_atom:
+    ridge_R2: 0.7202
+    rf_R2: 0.8865
+    lgbm_R2: 0.9113
+    stacking_R2: 0.9122
+    avg_R2: 0.8796
+
+  energy_above_hull:
+    ridge_R2: 0.4784
+    rf_R2: 0.7607
+    lgbm_R2: 0.8018
+    stacking_R2: 0.8045
+    avg_R2: 0.7435

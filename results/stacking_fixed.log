@@ -1,0 +1,25 @@
+============================================================
+  Stacking 集成 (Stack Generalization)
+============================================================
+
+### formation_energy_per_atom ###
+[STACK] 目标: formation_energy_per_atom, 基模型: ['ridge', 'rf', 'lgbm']
+  (嵌套CV: 外层5折评估 / 内层5折生成OOF)
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\linear_model\_ridge.py:216: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0525522582833593e-28.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\linear_model\_ridge.py:216: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.493463449078431e-27.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  基模型 ridge: R²=0.7202
+  基模型 rf: R²=0.8865
+  基模型 lgbm: R²=0.9113
+  Stacking: R²=0.9122 MAE=0.1906
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\科研论文\src\stacking.py", line 180, in <module>
+    main()
+  File "C:\Users\LENOVO\Desktop\科研论文\src\stacking.py", line 161, in main
+    res = run_stacking(df, target)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\src\stacking.py", line 139, in run_stacking
+    avg_pred = np.mean([oof_preds[name] for name in model_names], axis=0)
+                                                    ^^^^^^^^^^^
+NameError: name 'model_names' is not defined. Did you mean: 'base_model_names'?

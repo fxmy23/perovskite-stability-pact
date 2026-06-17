@@ -1,0 +1,15 @@
+﻿feature,feature_full,appearances,total_formulas,consensus_pct
+a_site_en,phys_a_site_en,50,50,100.0
+b_site_group,phys_b_site_group,32,50,64.0
+b_site_en,phys_b_site_en,30,50,60.0
+b_site_valence,phys_b_site_valence,16,50,32.0
+b_site_d_electrons,phys_b_site_d_electrons,16,50,32.0
+b_site_row,phys_b_site_row,10,50,20.0
+a_site_d_electrons,phys_a_site_d_electrons,10,50,20.0
+radius_ratio_AB,phys_radius_ratio_AB,8,50,16.0
+a_site_radius,phys_a_site_radius,7,50,14.0
+b_site_radius,phys_b_site_radius,7,50,14.0
+tolerance_factor,phys_tolerance_factor,6,50,12.0
+octahedral_factor,phys_octahedral_factor,4,50,8.0
+electroneg_diff_AB,phys_electroneg_diff_AB,4,50,8.0
+b_site_f_electrons,phys_b_site_f_electrons,3,50,6.0

@@ -1,0 +1,50 @@
+============================================================
+  材料发现与异常剖析
+============================================================
+[DISCOVERY-A] 挖掘物理异常材料...
+  反常稳定 (判据说不行但实际稳定): 135 个
+  反常不稳定 (判据说行但实际不稳): 548 个
+
+  === 反常稳定材料的 B 位元素 Top10 ===
+b_site_element
+V     22
+Al    20
+Bi    10
+Pa     9
+Os     8
+Tl     4
+Eu     4
+Ti     3
+U      3
+Hf     3
+
+  === 反常稳定材料的结构畸变类型 ===
+lowest_distortion
+orthorhombic    92
+rhombohedral    23
+cubic           15
+tetragonal       5
+
+[SAVE] 物理异常材料: C:\Users\LENOVO\Desktop\科研论文\results\discovery\physics_anomalies.csv  (50 条)
+[DISCOVERY-B] 高通量筛选新候选 (目标: energy_above_hull)...
+  候选空间: 73 A位 x 73 B位 = 5329 组合
+  其中 408 个组合未在训练集中 (真正的新候选)
+  生成候选物理特征...
+  训练 8 个 RF 集成 (物理特征)...
+  筛选通过 (预测稳定且低不确定性): 245 个
+  其中新候选 (未在训练集): 9 个
+[SAVE] 筛选候选: C:\Users\LENOVO\Desktop\科研论文\results\discovery\screened_candidates.csv  (50 条)
+
+============================================================
+  Top 15 新候选稳定钙钛矿 (未在训练集)
+============================================================
+formula_pretty a_site_element b_site_element  pred_energy_above_hull  pred_std  phys_tolerance_factor  phys_in_stable_zone
+        PrCoO3             Pr             Co                0.004200  0.001238               0.821355                    1
+        LaTiO3             La             Ti                0.006392  0.002896               0.972043                    0
+        GdCoO3             Gd             Co                0.013294  0.001788               0.940452                    1
+        YbCoO3             Yb             Co                0.015589  0.006389               0.891424                    1
+        DyCoO3             Dy             Co                0.017264  0.001942               1.039174                    0
+         YCoO3              Y             Co                0.020078  0.002371               0.650832                    0
+        ErFeO3             Er             Fe                0.022997  0.006164               0.945178                    1
+        SrNpO3             Sr             Np                0.023255  0.008331               0.774035                    0
+        LaAlO3             La             Al                0.024283  0.009241               0.740513                    0

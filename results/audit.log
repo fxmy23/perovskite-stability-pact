@@ -1,0 +1,58 @@
+============================================================
+  过拟合与数据泄露审计
+============================================================
+
+[1] 检查特征列是否包含目标变量...
+  含目标名的特征: 无
+
+[2] 检查 struct_ 特征与目标的相关性 (寻找泄露)...
+
+  与 formation_energy_per_atom 相关性最高的 struct 特征:
+struct_band_gap                0.472760
+struct_distort_cubic           0.433580
+struct_distort_orthorhombic    0.402285
+struct_abc_spread              0.374090
+struct_ca_ratio                0.359483
+struct_ba_ratio                0.232645
+struct_mag_moment              0.222819
+struct_vpa                     0.140423
+
+  与 energy_above_hull 相关性最高的 struct 特征:
+struct_distort_cubic           0.718718
+struct_distort_orthorhombic    0.617548
+struct_abc_spread              0.599759
+struct_ca_ratio                0.581961
+struct_ba_ratio                0.385207
+struct_band_gap                0.324275
+struct_lattice_gamma_dev       0.208637
+struct_lattice_alpha_dev       0.208495
+
+[3] 关键质疑: band_gap/lattice 是 DFT 计算结果,
+    与 E_hull 同源, 可能构成间接泄露。检查:
+  corr(struct_band_gap, formation_energy_per_atom) = -0.473
+  corr(struct_band_gap, energy_above_hull) = -0.324
+  corr(struct_vpa, formation_energy_per_atom) = -0.140
+  corr(struct_vpa, energy_above_hull) = 0.128
+  corr(struct_ba_ratio, formation_energy_per_atom) = -0.233
+  corr(struct_ba_ratio, energy_above_hull) = -0.385
+  corr(struct_ca_ratio, formation_energy_per_atom) = -0.359
+  corr(struct_ca_ratio, energy_above_hull) = -0.582
+  corr(lattice_a, formation_energy_per_atom) = -0.449
+  corr(lattice_a, energy_above_hull) = -0.590
+  corr(lattice_b, formation_energy_per_atom) = -0.450
+  corr(lattice_b, energy_above_hull) = -0.609
+  corr(lattice_c, formation_energy_per_atom) = -0.432
+  corr(lattice_c, energy_above_hull) = -0.634
+  corr(volume_per_atom, formation_energy_per_atom) = -0.140
+  corr(volume_per_atom, energy_above_hull) = 0.128
+
+[4] 对比: 排除 struct 特征后的 R² (验证 struct 是否在作弊)...
+  仅 Magpie+物理          | formation_energy_per_atom      | R²=0.8928
+  仅 Magpie+物理          | energy_above_hull              | R²=0.7604
+  全部(含struct)          | formation_energy_per_atom      | R²=0.9662
+  全部(含struct)          | energy_above_hull              | R²=0.9327
+  仅物理                  | formation_energy_per_atom      | R²=0.8443
+  仅物理                  | energy_above_hull              | R²=0.6994
+
+[5] 训练集 vs 测试集 R² (过拟合诊断)...
+  formation_energy_per_atom: 训练R²=0.9951 测试R²=0.9672 差距=0.0279

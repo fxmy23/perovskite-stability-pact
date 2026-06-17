@@ -1,0 +1,5 @@
+﻿phys_share_in_residual,residual_model_R2,top_phys_features,target,method,penalty
+0.22693225563156955,0.9381627190345878,"[('phys_a_site_radius', 0.09297532821084), ('phys_b_site_en', 0.030933243937709846), ('phys_radius_ratio_AB', 0.022469461829024106)]",formation_energy_per_atom,标准PGML(无约束),0.0
+0.20052199026859255,0.9353111379155178,"[('phys_a_site_radius', 0.07798451894365184), ('phys_b_site_en', 0.024625772611119114), ('phys_a_site_en', 0.020286066655660462)]",formation_energy_per_atom,PCRL(penalty=0.1),0.1
+0.2698216514786184,0.9161608708107263,"[('phys_a_site_radius', 0.10716336206297823), ('phys_a_site_en', 0.025747493564443277), ('phys_tolerance_factor', 0.021072171997052393)]",energy_above_hull,标准PGML(无约束),0.0
+0.2605807462265014,0.9135460523287318,"[('phys_a_site_radius', 0.10753594577341975), ('phys_a_site_en', 0.02425931150581255), ('phys_tolerance_factor', 0.018422369579083067)]",energy_above_hull,PCRL(penalty=0.1),0.1

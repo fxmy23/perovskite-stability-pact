@@ -1,0 +1,31 @@
+[1] import torch
+    Device: NVIDIA GeForce RTX 4060 Laptop GPU
+[2] import cgcnn模块
+[3] 加载数据
+    20 样本
+[4] 构建图 (逐个)
+    [0] OK nodes=5 edges=250
+    [1] OK nodes=5 edges=186
+    [2] OK nodes=5 edges=174
+    [3] OK nodes=5 edges=198
+    [4] OK nodes=5 edges=154
+    [5] OK nodes=5 edges=250
+    [6] OK nodes=5 edges=242
+    [7] OK nodes=5 edges=250
+    [8] OK nodes=5 edges=250
+    [9] OK nodes=5 edges=106
+    [10] OK nodes=5 edges=154
+    [11] OK nodes=5 edges=310
+    [12] OK nodes=5 edges=250
+    [13] OK nodes=5 edges=174
+    [14] OK nodes=5 edges=106
+    [15] OK nodes=5 edges=250
+    [16] OK nodes=5 edges=154
+    [17] OK nodes=5 edges=162
+    [18] OK nodes=5 edges=250
+    [19] OK nodes=5 edges=250
+    总图数: 20
+[5] 训练 5 epoch
+    耗时0.4s
+    R2=-144192655327232.0000 MAE=3541284.5000
+[DONE] CGCNN GPU训练验证通过

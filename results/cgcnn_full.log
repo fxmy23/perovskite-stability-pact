@@ -1,0 +1,36 @@
+============================================================
+  CGCNN: Crystal Graph Convolutional Neural Network
+  Device: cuda
+============================================================
+[LOAD] matbench_perovskites (全量)...
+  样本: 18928
+[GRAPH] 构建晶体图...
+  图数据: 8000 (耗时 11.8s)
+  训练: 6400, 测试: 1600
+
+[TRAIN] CGCNN seed=42 (200 epochs, early stop)...
+    Epoch 50/200: loss=0.145173
+    Epoch 100/200: loss=0.108029
+    Epoch 150/200: loss=0.087579
+    Epoch 200/200: loss=0.083739
+  耗时107.5s R²=0.8144 MAE=0.2305
+
+[TRAIN] CGCNN seed=123 (200 epochs, early stop)...
+    Epoch 50/200: loss=0.148959
+    Epoch 100/200: loss=0.112204
+    Epoch 150/200: loss=0.099274
+    Epoch 200/200: loss=0.085639
+  耗时120.0s R²=0.8027 MAE=0.2340
+
+[TRAIN] CGCNN seed=456 (200 epochs, early stop)...
+    Epoch 50/200: loss=0.149368
+    Epoch 100/200: loss=0.111559
+    Epoch 150/200: loss=0.103755
+    Epoch 200/200: loss=0.099470
+  耗时150.5s R²=0.7849 MAE=0.2421
+
+=== CGCNN 结果 (3 seeds) ===
+  R²:  0.8007 ± 0.0121
+  MAE: 0.2355 ± 0.0049 eV/atom
+
+[SAVE] C:\Users\LENOVO\Desktop\科研论文\results\metrics\cgcnn_results.csv

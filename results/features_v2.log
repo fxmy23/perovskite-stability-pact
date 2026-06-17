@@ -1,0 +1,170 @@
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for electrical_resistivity for Ac
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for electrical_resistivity for O
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Ac
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Ac
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for O
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Ac
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for O
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Ac
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for O
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Ac
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for O
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for density_of_solid for O
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for As
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for As
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for B
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for B
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for B
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Ba
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Cs
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Cs
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Eu
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Eu
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Ga
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Ga
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Ga
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Gd
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Ge
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Ge
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Ge
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Ge
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Hg
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Hg
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Hg
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for density_of_solid for Hg
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for In
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for In
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for K
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Li
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Lu
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Mn
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Np
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Np
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Np
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Np
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Np
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Os
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Os
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Pa
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Pa
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Pa
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Pa
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Pa
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Pm
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Pm
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Pu
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Pu
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Rb
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Sc
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Si
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Si
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Sr
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Sr
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Sr
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Sr
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Tc
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Tc
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for youngs_modulus for Tc
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for brinell_hardness for Tc
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for rigidity_modulus for Tc
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for velocity_of_sound for Tm
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\periodic_table.py:181: UserWarning: No data available for bulk_modulus for Zr
+  warnings.warn(f"No data available for {item} for {self.symbol}")
+[FEAT] 对 4914 条样本生成特征 ...
+  [1/3] Magpie 组成描述符 (~132维)...
+  [2/3] 钙钛矿物理特征 (容忍因子等)...
+  [3/3] 原生结构特征 (晶格/畸变/带隙/磁矩)...
+[FEAT] 特征矩阵构建完成: 122 维 (NaN保留, Pipeline折内填充)
+[SAVE] 特征数据: C:\Users\LENOVO\Desktop\科研论文\data\processed\perovskite_features.csv  ((4914, 141))
+
+=== 物理特征 vs 形成能/凸包能 相关性 ===
+
+  与 formation_energy_per_atom:
+energy_above_hull        0.592753
+phys_a_site_en           0.536755
+phys_a_site_radius      -0.347752
+phys_stability_score    -0.314259
+phys_b_site_group        0.297125
+phys_b_site_en           0.291491
+phys_tolerance_factor   -0.278467
+phys_in_stable_zone     -0.253820
+
+  与 energy_above_hull:
+formation_energy_per_atom    0.592753
+phys_a_site_radius          -0.507890
+phys_tolerance_factor       -0.455708
+phys_stability_score        -0.431757
+phys_radius_ratio_AB        -0.425657
+phys_in_stable_zone         -0.377893
+phys_a_site_en               0.326583
+phys_b_site_radius           0.097370

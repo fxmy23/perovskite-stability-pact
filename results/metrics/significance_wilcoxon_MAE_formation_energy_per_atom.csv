@@ -1,0 +1,4 @@
+﻿model_A,model_B,mean_MAE_A,mean_MAE_B,mean_diff,wilcoxon_p,significant_0.05,target
+LightGBM,RF,0.19361457831471812,0.22061434713077138,-0.026999768816053267,0.0625,False,formation_energy_per_atom
+LightGBM,XGBoost,0.19361457831471812,0.19395000445209426,-0.000335426137376138,0.625,False,formation_energy_per_atom
+RF,XGBoost,0.22061434713077138,0.19395000445209426,0.02666434267867713,0.0625,False,formation_energy_per_atom

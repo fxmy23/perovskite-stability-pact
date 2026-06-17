@@ -1,0 +1,64 @@
+============================================================
+  PGML 残差建模 (物理 vs ML vs PGML 三方对比)
+============================================================
+
+### 目标: 形成能 Ef ###
+[PGML] 目标: formation_energy_per_atom
+       样本数 4914, 全特征 109维, 物理特征 10维
+  >> 纯物理基线 (KernelRidge on 物理特征)...
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\科研论文\src\pgml.py", line 334, in <module>
+    main()
+  File "C:\Users\LENOVO\Desktop\科研论文\src\pgml.py", line 316, in main
+    res = run_pgml_comparison(df, target=target_col)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\src\pgml.py", line 221, in run_pgml_comparison
+    y_pred_phys = cross_val_predict(pb, X_phys.values, y, cv=cv)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 1282, in cross_val_predict
+    predictions = parallel(
+                  ^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\utils\parallel.py", line 74, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\utils\parallel.py", line 136, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 1367, in _fit_and_predict
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\LENOVO\Desktop\科研论文\src\pgml.py", line 94, in fit
+    self._model.fit(X_phys, y)
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\pipeline.py", line 473, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\kernel_ridge.py", line 195, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\utils\validation.py", line 1301, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\utils\validation.py", line 1064, in check_array
+    _assert_all_finite(
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\utils\validation.py", line 123, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\sklearn\utils\validation.py", line 172, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+KernelRidge does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values

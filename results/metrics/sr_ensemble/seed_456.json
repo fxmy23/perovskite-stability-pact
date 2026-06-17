@@ -1,0 +1,12 @@
+{
+  "seed": 456,
+  "equations": [
+    "sub(mul(sub(add(X7, X8), sqrt(sub(sub(sub(X7, add(X3, sqrt(X12))), sqrt(X9)), add(X4, sqrt(X11))))), 0.372), sqrt(sqrt(add(add(X4, sqrt(sqrt(X11))), sqrt(sqrt(X11))))))",
+    "sub(-0.405, sqrt(sub(add(X7, -0.405), sqrt(sub(sub(sub(X8, sqrt(add(X7, add(sub(add(X2, X7), X4), sub(X8, 0.973))))), X4), sqrt(sub(sub(X8, 0.816), X4)))))))",
+    "sub(sub(sqrt(0.368), sqrt(sub(sub(X7, sqrt(sub(X11, add(X7, X5)))), sqrt(sqrt(sub(X7, sqrt(sub(X7, sqrt(-0.464))))))))), sqrt(add(-0.893, X10)))",
+    "sub(sub(sqrt(add(X6, X0)), sqrt(add(add(-0.935, X7), -0.523))), sqrt(sub(add(-0.937, X8), sqrt(sub(X4, add(-0.937, X8))))))",
+    "sub(mul(X10, sub(sqrt(sub(-0.951, sqrt(sqrt(sub(sub(-0.493, sqrt(X11)), X8))))), sqrt(X10))), sqrt(sub(add(-0.951, sub(add(X8, X7), X3)), add(sqrt(X11), sqrt(sub(-0.619, add(X8, sqrt(X10))))))))"
+  ],
+  "r2_physics_mean": 0.48169999620421233,
+  "r2_physics_std": 0.04711805505969546
+}

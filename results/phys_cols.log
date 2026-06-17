@@ -1,0 +1,17 @@
+phys_tolerance_factor
+phys_octahedral_factor
+phys_electroneg_diff_AB
+phys_radius_ratio_AB
+phys_b_site_valence
+phys_a_site_radius
+phys_b_site_radius
+phys_a_site_en
+phys_b_site_en
+phys_b_site_row
+phys_b_site_group
+phys_a_site_d_electrons
+phys_b_site_d_electrons
+phys_b_site_f_electrons
+phys_b_site_unpaired
+phys_in_stable_zone
+phys_stability_score

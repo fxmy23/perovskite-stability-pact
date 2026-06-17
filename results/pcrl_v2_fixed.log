@@ -1,0 +1,45 @@
+============================================================
+  PCRL v2: SHAP-Guided Physics-Constrained Residual Learning
+============================================================
+
+### formation_energy_per_atom ###
+[PCRL-v2] 目标: formation_energy_per_atom, SHAP-guided自适应约束
+          目标物理SHAP占比: ≤20%
+    penalty=0.1: 物理SHAP占比=22.8%
+    penalty=0.2: 物理SHAP占比=22.2%
+    penalty=0.3: 物理SHAP占比=18.9%
+  → 选定 penalty=0.3 (物理SHAP=18.9%)
+  PCRL-v2 R²=0.9039 MAE=0.2048 (penalty=0.3)
+  pure_ml              R²=0.9101
+  standard_pgml        R²=0.9074
+  pcrl_v1(p=0.1)       R²=0.9060
+  pcrl_v2_shap         R²=0.9039
+
+### energy_above_hull ###
+[PCRL-v2] 目标: energy_above_hull, SHAP-guided自适应约束
+          目标物理SHAP占比: ≤20%
+    penalty=0.1: 物理SHAP占比=27.5%
+    penalty=0.2: 物理SHAP占比=25.6%
+    penalty=0.3: 物理SHAP占比=22.3%
+    penalty=0.5: 物理SHAP占比=18.5%
+  → 选定 penalty=0.5 (物理SHAP=18.5%)
+  PCRL-v2 R²=0.7768 MAE=0.1902 (penalty=0.5)
+  pure_ml              R²=0.7998
+  standard_pgml        R²=0.7872
+  pcrl_v1(p=0.1)       R²=0.7880
+  pcrl_v2_shap         R²=0.7768
+
+[SAVE] C:\Users\LENOVO\Desktop\科研论文\results\metrics\pcrl_v2_comparison.csv
+
+============================================================
+  PCRL v2 汇总 (SHAP-guided)
+============================================================
+                   target         method       R2      MAE
+formation_energy_per_atom        pure_ml 0.910144 0.194558
+formation_energy_per_atom  standard_pgml 0.907376 0.198915
+formation_energy_per_atom pcrl_v1(p=0.1) 0.905955 0.201106
+formation_energy_per_atom   pcrl_v2_shap 0.903938 0.204847
+        energy_above_hull        pure_ml 0.799819 0.177018
+        energy_above_hull  standard_pgml 0.787207 0.183820
+        energy_above_hull pcrl_v1(p=0.1) 0.787995 0.183844
+        energy_above_hull   pcrl_v2_shap 0.776801 0.190171

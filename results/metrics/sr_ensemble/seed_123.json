@@ -1,0 +1,12 @@
+{
+  "seed": 123,
+  "equations": [
+    "sub(-0.798, sqrt(mul(sqrt(add(X10, -0.911)), sub(X7, sqrt(sub(sqrt(-0.798), div(sqrt(sub(sqrt(-0.798), div(X7, 0.483))), 0.483)))))))",
+    "sub(-0.426, sqrt(sub(mul(sub(X7, sqrt(sub(X8, add(X4, sqrt(sqrt(sub(X9, X8))))))), sqrt(sub(X10, 0.830))), sqrt(mul(sub(X7, sqrt(-0.426)), sub(X10, 0.830))))))",
+    "sub(mul(sub(X7, sqrt(sub(sub(X8, X3), div(sqrt(X11), 0.374)))), sqrt(0.208)), sqrt(sub(X10, sqrt(-0.817))))",
+    "add(-0.835, sub(mul(X7, 0.599), sqrt(sub(X10, sqrt(sqrt(X10))))))",
+    "sub(sub(0.274, sqrt(sub(sub(X7, 0.445), sqrt(sub(X7, 0.473))))), sqrt(sub(X10, 0.921)))"
+  ],
+  "r2_physics_mean": 0.40572347727056357,
+  "r2_physics_std": 0.058037843895887585
+}

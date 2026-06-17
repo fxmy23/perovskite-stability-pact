@@ -1,0 +1,24 @@
+============================================================
+  Matbench Perovskite 基准对比
+============================================================
+[LOAD] matbench_perovskites (18928条)...
+  样本: 18928, 列: ['structure', 'e_form']
+C:\Users\LENOVO\Desktop\科研论文\.venv\Lib\site-packages\pymatgen\core\composition.py:1240: FutureWarning: gcd is deprecated, and will be removed on 2028-01-01
+Use math.gcd instead.
+  factor = abs(gcd(*(int(i) for i in sym_amt.values())))
+[FEAT] 生成 Magpie 特征...
+[FEAT] 生成物理特征...
+[INFO] 特征 109 维, 样本 18928
+  >> RF ... MAE=0.5819 RMSE=0.7774 R²=-0.0964
+  >> XGBoost ... MAE=0.4997 RMSE=0.6930 R²=0.1289
+  >> LightGBM ... MAE=0.4779 RMSE=0.6523 R²=0.2281
+
+[SAVE] C:\Users\LENOVO\Desktop\科研论文\results\metrics\matbench_benchmark.csv
+
+============================================================
+  与文献 SOTA 对比 (matbench perovskite, 组成特征)
+============================================================
+  文献 XGBoost (2025 benchmark): MAE=0.227, R²=0.79
+  本研究 RF:           MAE=0.582, R²=-0.096
+  本研究 XGBoost:           MAE=0.500, R²=0.129
+  本研究 LightGBM:           MAE=0.478, R²=0.228

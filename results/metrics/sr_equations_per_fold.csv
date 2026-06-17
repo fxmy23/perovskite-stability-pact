@@ -1,0 +1,11 @@
+﻿target,fold,equation
+formation_energy_per_atom,1,"sub(-0.191, sqrt(add(sub(sub(sub(X7, sqrt(sub(X7, sqrt(sub(X7, sqrt(sub(X7, sqrt(-0.593)))))))), sqrt(add(X3, sqrt(sub(X10, sqrt(-0.289)))))), sqrt(X10)), X10)))"
+formation_energy_per_atom,2,"sub(sub(X12, X9), sqrt(add(sub(sqrt(sub(sub(X12, X9), X9)), add(X7, -0.750)), sub(sqrt(sub(X4, X9)), add(X7, -0.750)))))"
+formation_energy_per_atom,3,"sub(mul(add(X10, sub(sub(sub(sub(X7, X4), X11), mul(X1, X13)), sqrt(sub(X10, X12)))), 0.162), sqrt(sub(sub(sub(X7, 0.376), sqrt(sub(X10, sqrt(add(X10, -0.962))))), sqrt(sub(X10, 0.956)))))"
+formation_energy_per_atom,4,"sub(mul(sqrt(X8), mul(sqrt(X5), mul(sqrt(X8), sqrt(0.396)))), add(sqrt(sub(add(X7, -0.592), sqrt(add(X7, -0.592)))), sqrt(sub(X10, sqrt(X13)))))"
+formation_energy_per_atom,5,"div(sqrt(add(add(sub(sub(-0.804, X3), sqrt(X13)), X8), sub(X7, sqrt(add(sub(X10, X4), -0.804))))), -0.897)"
+energy_above_hull,1,"sqrt(sub(sqrt(sub(mul(X3, X6), X3)), X3))"
+energy_above_hull,2,"sqrt(mul(mul(-0.562, add(add(X0, -0.596), -0.753)), add(mul(0.526, add(X3, X1)), -0.753)))"
+energy_above_hull,3,"sqrt(mul(add(-0.538, add(-0.538, X0)), sub(sqrt(add(-0.840, add(-0.469, add(X3, X6)))), 0.642)))"
+energy_above_hull,4,"sqrt(add(mul(X0, -0.461), sqrt(-0.408)))"
+energy_above_hull,5,0.655

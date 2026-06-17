@@ -1,0 +1,28 @@
+[1] import torch
+    Device: NVIDIA GeForce RTX 4060 Laptop GPU
+[2] import cgcnn模块
+[3] 加载数据
+    20 样本
+[4] 构建图 (逐个)
+    [0] ERROR: tuple indices must be integers or slices, not str
+    [1] ERROR: tuple indices must be integers or slices, not str
+    [2] ERROR: tuple indices must be integers or slices, not str
+    [3] ERROR: tuple indices must be integers or slices, not str
+    [4] ERROR: tuple indices must be integers or slices, not str
+    [5] ERROR: tuple indices must be integers or slices, not str
+    [6] ERROR: tuple indices must be integers or slices, not str
+    [7] ERROR: tuple indices must be integers or slices, not str
+    [8] ERROR: tuple indices must be integers or slices, not str
+    [9] ERROR: tuple indices must be integers or slices, not str
+    [10] ERROR: tuple indices must be integers or slices, not str
+    [11] ERROR: tuple indices must be integers or slices, not str
+    [12] ERROR: tuple indices must be integers or slices, not str
+    [13] ERROR: tuple indices must be integers or slices, not str
+    [14] ERROR: tuple indices must be integers or slices, not str
+    [15] ERROR: tuple indices must be integers or slices, not str
+    [16] ERROR: tuple indices must be integers or slices, not str
+    [17] ERROR: tuple indices must be integers or slices, not str
+    [18] ERROR: tuple indices must be integers or slices, not str
+    [19] ERROR: tuple indices must be integers or slices, not str
+    总图数: 0
+[ABORT] 图太少

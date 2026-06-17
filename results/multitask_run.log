@@ -1,0 +1,22 @@
+============================================================
+  多任务学习 (单任务 vs 多任务 对比)
+============================================================
+[MTL] 样本 4914, 特征 122维, 双目标: ['formation_energy_per_atom', 'energy_above_hull']
+
+  >> 方案A: 多输出树模型 (XGBoost multi-output)...
+  >> 方案C: 多任务核岭回归 (共享核)...
+
+[SAVE] 多任务对比结果: C:\Users\LENOVO\Desktop\科研论文\results\metrics\multitask_comparison.csv
+
+============================================================
+  多任务学习汇总
+============================================================
+    RMSE      MAE       R2                    target          method
+0.134102 0.094762 0.981486 formation_energy_per_atom     single_task
+0.125690 0.080405 0.957852         energy_above_hull     single_task
+0.134102 0.094762 0.981486 formation_energy_per_atom  multitask_tree
+0.125690 0.080405 0.957852         energy_above_hull  multitask_tree
+0.264156 0.198706 0.928161 formation_energy_per_atom single_task_krr
+0.264156 0.198706 0.928161 formation_energy_per_atom   multitask_krr
+0.214790 0.144851 0.876916         energy_above_hull single_task_krr
+0.214790 0.144851 0.876916         energy_above_hull   multitask_krr

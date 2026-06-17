@@ -1,0 +1,39 @@
+============================================================
+  PCRL: Physics-Constrained Residual Learning
+  (四方对比: 纯物理 / 纯ML / 标准PGML / PCRL)
+============================================================
+
+### formation_energy_per_atom ###
+[PCRL] 目标: formation_energy_per_atom, 样本 4914, 特征 109
+  pure_physics              R²=0.7112 MAE=0.4002
+  pure_ml                   R²=0.9097 MAE=0.1950
+  standard_pgml             R²=0.9066 MAE=0.2000
+  PCRL (penalty=0.5)        R²=0.9012 MAE=0.2082
+  PCRL+adaptive             R²=0.9012 MAE=0.2082
+  物理贡献占比: 78.9% (baseline R²=0.711, PCRL R²=0.901)
+
+### energy_above_hull ###
+[PCRL] 目标: energy_above_hull, 样本 4914, 特征 109
+  pure_physics              R²=0.4977 MAE=0.3290
+  pure_ml                   R²=0.7979 MAE=0.1774
+  standard_pgml             R²=0.7894 MAE=0.1835
+  PCRL (penalty=0.5)        R²=0.7793 MAE=0.1909
+  PCRL+adaptive             R²=0.7793 MAE=0.1909
+  物理贡献占比: 63.9% (baseline R²=0.498, PCRL R²=0.779)
+
+[SAVE] C:\Users\LENOVO\Desktop\科研论文\results\metrics\pcrl_comparison.csv
+
+============================================================
+  PCRL 四方对比汇总
+============================================================
+                   target             method       R2      MAE
+formation_energy_per_atom       pure_physics 0.711182 0.400241
+formation_energy_per_atom            pure_ml 0.909723 0.194974
+formation_energy_per_atom      standard_pgml 0.906560 0.200036
+formation_energy_per_atom PCRL (penalty=0.5) 0.901209 0.208151
+formation_energy_per_atom      PCRL+adaptive 0.901209 0.208151
+        energy_above_hull       pure_physics 0.497690 0.328958
+        energy_above_hull            pure_ml 0.797941 0.177355
+        energy_above_hull      standard_pgml 0.789372 0.183496
+        energy_above_hull PCRL (penalty=0.5) 0.779264 0.190901
+        energy_above_hull      PCRL+adaptive 0.779264 0.190901
