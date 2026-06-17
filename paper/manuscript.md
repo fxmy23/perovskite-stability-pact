@@ -205,9 +205,9 @@ The author declares that there are no known competing financial interests or per
 
 This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors. Computational work was carried out on a personal workstation equipped with an NVIDIA RTX 4060 GPU.
 
-## Declaration of Generative AI Use
+## Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
 
-During the preparation of this work the author used AI-assisted coding tools (for software development, debugging, and manuscript drafting) and large language models (for proofreading and language refinement). The author reviewed and edited all AI-assisted content and takes full responsibility for the integrity and accuracy of the published work, including all code, data analysis, and scientific conclusions.
+During the preparation of this work the author used an AI-assisted coding and writing tool (ZCode, powered by a large language model) in order to assist with software development, debugging, data analysis scripting, and manuscript drafting. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the published article.
 
 ## Acknowledgments
 
