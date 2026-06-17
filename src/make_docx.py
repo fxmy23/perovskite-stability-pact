@@ -150,6 +150,6 @@ for cap in captions:
     add_para(cap)
 
 # Save
-output = PAPER / 'manuscript_cms_v4.docx'
+output = PAPER / 'manuscript_cms_v5.docx'
 doc.save(str(output))
 print(f'[SAVE] {output} ({output.stat().st_size // 1024} KB)')
