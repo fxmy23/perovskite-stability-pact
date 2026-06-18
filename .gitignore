@@ -35,3 +35,4 @@ _*.py
 "0.8128"  
 ".env.example"  
 "catboost_info/"  
+nul
