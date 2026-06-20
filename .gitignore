@@ -19,6 +19,9 @@ Thumbs.db
 .DS_Store
 desktop.ini
 
+# Word/Office temporary lock files (when documents are open)
+~$*
+
 # IDE
 .vscode/
 .idea/
