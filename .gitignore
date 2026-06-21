@@ -35,7 +35,11 @@ _*.py
 
 # Large data cache (matminer downloads)
 ~/.matminer_cache/
-"0.8128"  
-".env.example"  
-"catboost_info/"  
+
+# CatBoost / other ML lib temp files
+catboost_info/
+
+# Junk / stray output files
+0.8128
 nul
+*.tmp
